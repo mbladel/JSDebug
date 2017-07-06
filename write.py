@@ -6,5 +6,4 @@ class js_debug_writeCommand(sublime_plugin.TextCommand):
     settings = sublime.load_settings('JSDebug.sublime-settings')
     command = settings.get('command')
     symbol = settings.get('string_symbol')
-    # print("pos: " + self.view.sel()[0].begin())
-    self.view.insert(edit, self.view.sel()[0].begin(), 'console.debug("' + text + '", ' + text + ');')
+    self.view.insert(edit, self.view.sel()[0].begin(), 'console.' + command + '(' + symbol + text + symbol + ', ' + text + ');')
