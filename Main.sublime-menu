@@ -49,7 +49,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                "file": "${packages}/User/JSDebug/Default (OSX).sublime-keymap",
+                                "file": "${packages}/User/Default (OSX).sublime-keymap",
                                 "platform": "OSX"
                                 },
                                 "caption": "Key Bindings – User"
@@ -57,7 +57,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                "file": "${packages}/User/JSDebug/Default.sublime-keymap",
+                                "file": "${packages}/User/Default.sublime-keymap",
                                 "platform": "Windows"
                                 },
                                 "caption": "Key Bindings – User"
