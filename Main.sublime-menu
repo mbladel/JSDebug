@@ -1,0 +1,71 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "JSDebug",
+                        "children":
+                        [
+                             {
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/JSDebug/JSDebug.sublime-settings"
+                                },
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file", "args":
+                                {
+                                    "file": "${packages}/User/JSDebug.sublime-settings"
+                                },
+                                "caption": "Settings – User"
+                            },
+                             { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                "file": "${packages}/JSDebug/Default (OSX).sublime-keymap",
+                                "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                "file": "${packages}/JSDebug/Default.sublime-keymap",
+                                "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                "file": "${packages}/User/JSDebug/Default (OSX).sublime-keymap",
+                                "platform": "OSX"
+                                },
+                                "caption": "Key Bindings – User"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                "file": "${packages}/User/JSDebug/Default.sublime-keymap",
+                                "platform": "Windows"
+                                },
+                                "caption": "Key Bindings – User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
