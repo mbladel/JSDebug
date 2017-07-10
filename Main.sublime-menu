@@ -15,19 +15,13 @@
                         "caption": "JSDebug",
                         "children":
                         [
-                             {
-                                "command": "open_file", "args":
-                                {
-                                    "file": "${packages}/JSDebug/JSDebug.sublime-settings"
-                                },
-                                "caption": "Settings – Default"
-                            },
                             {
-                                "command": "open_file", "args":
+                                "command": "edit_settings", "args":
                                 {
-                                    "file": "${packages}/User/JSDebug.sublime-settings"
+                                    "base_file": "${packages}/JSDebug/JSDebug.sublime-settings",
+                                    "default": "{\n\t$0\n}\n"
                                 },
-                                "caption": "Settings – User"
+                                "caption": "Settings"
                             },
                              { "caption": "-" },
                             {
