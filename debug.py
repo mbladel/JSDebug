@@ -13,4 +13,6 @@ class js_debug_writeCommand(sublime_plugin.TextCommand):
     settings = sublime.load_settings('JSDebug.sublime-settings')
     command = settings.get('command')
     symbol = settings.get('string_symbol')
-    self.view.insert(edit, self.view.sel()[0].begin(), 'console.' + command + '(' + symbol + text + symbol + ', ' + text + ');')
+    for region in self.view.sel():
+    	self.view.erase(edit, region)
+    	self.view.insert(edit, region.begin(), 'console.' + command + '(' + symbol + text + symbol + ', ' + text + ');')
