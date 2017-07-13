@@ -1,6 +1,14 @@
 [
 	{
+		"keys": ["ctrl+shift+o"],
+		"command": "js_debug_object"
+	},
+	{
+		"keys": ["ctrl+shift+m"],
+		"command": "js_debug_message"
+	},
+	{
 		"keys": ["ctrl+shift+c"],
-		"command": "js_debug"
+		"command": "js_debug_both"
 	}
 ]

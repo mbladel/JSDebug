@@ -1,3 +1,5 @@
 [
-	{ "caption": "JsDebug", "command": "js_debug"}
+	{ "caption": "JsDebug: Object with Name", "command": "js_debug_both"},
+	{ "caption": "JsDebug: Text", "command": "js_debug_message"},
+	{ "caption": "JsDebug: Object", "command": "js_debug_object"}
 ]
