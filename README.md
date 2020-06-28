@@ -5,12 +5,13 @@ After running the command, insert the name of the object you want to output to t
 
 ![gif](http://i.imgur.com/M1HGkaB.gif)
 
-# Settings
+## Settings
 
 You can access the settings from Preferences > Package Settings > JSDebug > Settings
+
 - command: the console command to use (ex. log, debug, warn)
 - string_symbol: the symbol of choice when writing strings (" or ')
 
-# Keybindings
+## Keybindings
 
 You can customize the key bindings from Preferences > Package Settings > JSDebug > Key Bindings (User)
